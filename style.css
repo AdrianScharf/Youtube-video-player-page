@@ -1,0 +1,59 @@
+.navBarTop {
+ background: rgba(255, 250, 117, 0.673);
+ position: fixed;
+ top: 0;
+ left: 0;
+ height: 50px;
+ width: 100%;
+ z-index: 1;
+ display: flex;
+ justify-content: space-between;
+}
+
+#first {
+ margin: 10px 10px;
+ width: 24px;
+ height: 20px;
+}
+
+#second {
+ margin-top: 0px;
+}
+
+#third,
+#fourth {
+ width: 30%;
+ background-color: rgba(166, 5, 123, 0.733)
+}
+
+.main {
+ background: rgba(8, 140, 166, 0.561);
+ position: absolute;
+ top: 50px;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ display: flex;
+ justify-content: space-between;
+}
+
+.navBarLeft {
+ background: rgb(166, 5, 123);
+ position: absolute;
+ top: 50px;
+ right: 0;
+ bottom: 0;
+ left: 0;
+}
+
+.videoPlay {
+ background: rgb(8, 140, 166);
+ margin-top: 50px;
+ width: 30%;
+}
+
+.sideBar {
+ background: green;
+ margin-top: 50px;
+ width: 30%;
+}
