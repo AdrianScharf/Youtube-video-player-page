@@ -27,33 +27,26 @@
 }
 
 .main {
- background: rgba(8, 140, 166, 0.561);
- position: absolute;
- top: 50px;
- left: 0;
- bottom: 0;
- right: 0;
  display: flex;
+ height: calc(100vh-50px);
+ margin-top: 50px;
  justify-content: space-between;
+}
+
+.section {
+ flex: 1;
+ height: 100vh;
+ background: rgb(50, 10, 126);
 }
 
 .navBarLeft {
  background: rgb(166, 5, 123);
- position: absolute;
- top: 50px;
- right: 0;
- bottom: 0;
- left: 0;
 }
 
 .videoPlay {
  background: rgb(8, 140, 166);
- margin-top: 50px;
- width: 30%;
 }
 
 .sideBar {
  background: green;
- margin-top: 50px;
- width: 30%;
 }
