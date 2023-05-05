@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style.css">
- <title>Youtube page</title>
-</head>
-<body>
- <div class="navBarTop">
-  <img src="./images/3lines.png" id="first" alt="3lines">
-  <img src="./images/YouTube-Logo3.png" id="second" alt="ytlogo">
-  <p id="third">third</p>
-  <p id="fourth">fourth</p>
- </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">    
+        <title>Youtube page</title>
+    </head>
+    <body>
+        
+        <div class="navBarTop">
+            <div class="menu">
+                <div class="menu-toggle">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="menu-items">
+                    <script src="menu.js"></script>
+                    <ul>
+                      <li class="ele"> <img class="home" src="./images/homeyeah.png" alt=""> <a id="zuh" href="#">Home</a></li>
+                      <li class="ele"> <img class="shorts" src="./images/shorts.png" alt=""> <a id="nac" href="#">Shorts</a></li>
+                      <li class="ele"> <img class="subs" src="./images/subs.png" alt=""> <a id="im" href="#">Subscriptions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="https://www.youtube.com">
+              <img src="./images/YouTube-recut.png" class="top second" alt="ytlogo">
+            </a>
+            <img src="./images/mx.png" class="top secondhalf" alt="search">
+            <img src="./images/searchyes.png" class="top third" alt="search">
+            <img src="./images/mic-microphone-icon (1).png" class="top thirdhalf" alt="microphone">
+            <img src="./images/camera (1).png" class="top fourth" alt="">
+            <img src="./images/bell.png" class="top fifth" alt="">
+            <img src="./images/profileyt.png" class="top sixth" alt="">
+        </div>
  
  <div class="main">
-  <div class="section navBarLeft">navBarLeft</div>
- <div class="section videoPlay">videoPlay</div>
+     <div class="section videoPlay">videoPlay</div>
+     <div class="section comments">Comments section</div>
  <div class="section sideBar">sideBar</div>
 </div>
- 
+
 </body>
 </html>
